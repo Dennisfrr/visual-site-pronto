@@ -1,5 +1,5 @@
 
-import { Bell, Settings, User, Apps, ChevronDown } from "lucide-react";
+import { Bell, Settings, User, Grid3X3, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -38,7 +38,7 @@ export const Header = () => {
                   <span>Contatos</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem className="flex items-center space-x-2">
-                  <Apps className="w-4 h-4" />
+                  <Grid3X3 className="w-4 h-4" />
                   <span>Painéis</span>
                 </DropdownMenuItem>
               </DropdownMenuContent>
@@ -47,7 +47,7 @@ export const Header = () => {
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="text-white hover:bg-white/10 flex items-center space-x-1">
-                  <Apps className="w-4 h-4" />
+                  <Grid3X3 className="w-4 h-4" />
                   <span>Apps</span>
                   <div className="bg-blue-500 text-xs px-2 py-0.5 rounded ml-1">NOVO</div>
                   <ChevronDown className="w-4 h-4" />

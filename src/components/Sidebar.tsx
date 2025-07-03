@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { 
   MessageCircle, 
-  Apps, 
+  Grid3X3, 
   User, 
   Settings,
   ChevronRight,
@@ -29,7 +29,7 @@ export const Sidebar = ({ activeSection, setActiveSection, isOpen, setIsOpen }: 
     { 
       id: "dashboard", 
       label: "Dashboard", 
-      icon: Apps 
+      icon: Grid3X3 
     },
     { 
       id: "usuarios", 
